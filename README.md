@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -85,7 +85,8 @@
         hasil = "😍 Kalian pasangan yang sangat serasi!";
       } else {
         hasil = "🙂 Kecocokan kalian sedang-sedang saja, tapi cinta bisa tumbuh kok!";
-      }
+      } else {
+        hasil = "🤭 Kalian sangat cocok harus sampai menikah!";
 
       document.getElementById("hasil").innerText = hasil;
     }
