@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -81,6 +81,7 @@
         (zodiak1 === "Pisces" && zodiak2 === "Cancer") ||
         (zodiak1 === "Taurus" && zodiak2 === "Virgo") ||
         (zodiak1 === "Virgo" && zodiak2 === "Taurus")
+        (zodiak1 === "Capricorn" && zodiak2 === "Gemini")
       ) {
         hasil = "😍 Kalian pasangan yang sangat serasi!";
       } else {
