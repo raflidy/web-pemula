@@ -67,30 +67,34 @@
   <div id="hasil"></div>
 
   <script>
-    function cekKecocokan() {
-      const zodiak1 = document.getElementById("zodiak1").value;
-      const zodiak2 = document.getElementById("zodiak2").value;
-      let hasil = "";
+  function cekKecocokan() {
+    const zodiak1 = document.getElementById("zodiak1").value;
+    const zodiak2 = document.getElementById("zodiak2").value;
+    let hasil = "";
 
-      if (zodiak1 === zodiak2) {
-        hasil = "💖 Kalian sangat cocok, pasangan zodiak yang sejiwa!";
-      } else if (
-        (zodiak1 === "Leo" && zodiak2 === "Aries") ||
-        (zodiak1 === "Aries" && zodiak2 === "Leo") ||
-        (zodiak1 === "Cancer" && zodiak2 === "Pisces") ||
-        (zodiak1 === "Pisces" && zodiak2 === "Cancer") ||
-        (zodiak1 === "Taurus" && zodiak2 === "Virgo") ||
-        (zodiak1 === "Virgo" && zodiak2 === "Taurus") ||
-        (zodiak1 === "Capricorn" && zodiak2 === "Gemini")
-      ) {
-        hasil = "😍 Kalian pasangan yang sangat serasi!";
-      } else {
-        hasil = "🙂 Kecocokan kalian sedang-sedang saja, tapi cinta bisa tumbuh kok!";
-      } else {
-        hasil = "🤭 Kalian sangat cocok harus sampai menikah!";
-
-      document.getElementById("hasil").innerText = hasil;
+    if (zodiak1 === zodiak2) {
+      hasil = "💖 Kalian sangat cocok, pasangan zodiak yang sejiwa!";
+    } else if (
+      (zodiak1 === "Leo" && zodiak2 === "Aries") ||
+      (zodiak1 === "Aries" && zodiak2 === "Leo") ||
+      (zodiak1 === "Cancer" && zodiak2 === "Pisces") ||
+      (zodiak1 === "Pisces" && zodiak2 === "Cancer") ||
+      (zodiak1 === "Taurus" && zodiak2 === "Virgo") ||
+      (zodiak1 === "Virgo" && zodiak2 === "Taurus") ||
+      (zodiak1 === "Capricorn" && zodiak2 === "Gemini")
+    ) {
+      hasil = "😍 Kalian pasangan yang sangat serasi!";
+    } else if (
+      (zodiak1 === "Scorpio" && zodiak2 === "Pisces") ||
+      (zodiak1 === "Pisces" && zodiak2 === "Scorpio")
+    ) {
+      hasil = "🤭 Kalian sangat cocok harus sampai menikah!";
+    } else {
+      hasil = "🙂 Kecocokan kalian sedang-sedang saja, tapi cinta bisa tumbuh kok!";
     }
+
+    document.getElementById("hasil").innerText = hasil;
+  }
   </script>
 
 </body>
