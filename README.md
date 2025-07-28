@@ -81,12 +81,12 @@
       (zodiak1 === "Pisces" && zodiak2 === "Cancer") ||
       (zodiak1 === "Taurus" && zodiak2 === "Virgo") ||
       (zodiak1 === "Virgo" && zodiak2 === "Taurus") ||
-      (zodiak1 === "Capricorn" && zodiak2 === "Gemini")
+      (zodiak1 === "Capricorn" && zodiak2 === "Cancer")
     ) {
       hasil = "😍 Kalian pasangan yang sangat serasi!";
     } else if (
-      (zodiak1 === "Scorpio" && zodiak2 === "Pisces") ||
-      (zodiak1 === "Pisces" && zodiak2 === "Scorpio")
+      (zodiak1 === "Gemini" && zodiak2 === "Capricorn") ||
+      (zodiak1 === "Capricorn" && zodiak2 === "Gemini")
     ) {
       hasil = "🤭 Kalian sangat cocok harus sampai menikah!";
     } else {
@@ -95,7 +95,4 @@
 
     document.getElementById("hasil").innerText = hasil;
   }
-  </script>
-
-</body>
-</html>
+</script>
